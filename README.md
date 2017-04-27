@@ -1,6 +1,6 @@
 # jekyll-issue-6052
 
-Demo repo for [jekyll](https://github.com/jekyll/jekyll) [issue #6052](https://github.com/jekyll/jekyll/issues/6052).
+Demo repo for [jekyll](https://github.com/jekyll/jekyll) [issue #6052](https://github.com/jekyll/jekyll/issues/6052). Visit the GitHub pages version at [`https://dret.github.io/jekyll-issue-6052/`](https://dret.github.io/jekyll-issue-6052/).
 
 * [Link to `md` file](test%2Fescape.md)
 * [Link to `json` file](test%2Fescape.json)
