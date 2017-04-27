@@ -2,12 +2,14 @@
 
 Demo repo for [jekyll](https://github.com/jekyll/jekyll) [issue #6052](https://github.com/jekyll/jekyll/issues/6052). Visit the GitHub pages version at [`https://dret.github.io/jekyll-issue-6052/`](https://dret.github.io/jekyll-issue-6052/).
 
-* [Link to `md` file](test%2Fescape.md)
-* [Link to `json` file](test%2Fescape.json)
-* [Link with `.html` extension](test%2Fescape.html)
-* [Link with no extension](test%2Fescape)
+This repo demonstrates the bug reported in [jekyll](https://github.com/jekyll/jekyll) [issue #6052](https://github.com/jekyll/jekyll/issues/6052). Using escaped URIs as file names does not work as expected. Depending on local jekyll or GitHub pages, different problems can be observed, but in both cases the results are not as expected. This repository has two simple examples files, one `.md` and one `.json` file. they both use the same escaped file name `test%2Fescape`. The following links should all work:
 
-If you look at the links above, all of them should work, because they refer to resources that jekyll puts in the `_site` directory. However, there are two problems:
+* [Link to `md` file: `test%2Fescape.md`](test%2Fescape.md)
+* [Link to `json` file: `test%2Fescape.json`](test%2Fescape.json)
+* [Link with `.html` extension: `test%2Fescape.html`](test%2Fescape.html)
+* [Link with no extension: `test%2Fescape`](test%2Fescape)
+
+If you look at the links above, all of them should work, because they refer to existing resources that jekyll generates in the `_site` directory. However, two problems can be observed:
 
 
 ## 1. Link rewriting behaves inconsistently
